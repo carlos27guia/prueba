@@ -1,0 +1,113 @@
+*{   
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+ 
+header{
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    position: fixed;
+}
+
+body {
+    background-image: url(../Assets/Fondo\ montaña.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.contenedor {
+    display: flex;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 5% 5% 5% 5%; 
+    width: 500px;
+}
+
+.tarjeta img {
+    max-width: 100%;
+
+}
+
+.tarjeta p {
+    margin: 10px 0;
+}
+
+.Refugio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 1% 1% 1% 1%; 
+    width: 1000px;
+}
+
+.titulovideo  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 1% 1% 1% 1%; 
+    width: 650px;
+}
+
+.Desact { text-align: center;
+    margin: 1% 10% 1% 10%;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+.Ubicacion {  text-align: center;
+    margin: 1% 10% 1% 10%;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.644);
+
+
+}
+
+.informacion { 
+
+    text-align: center;
+    margin: 10% 10% 1% 10%;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}

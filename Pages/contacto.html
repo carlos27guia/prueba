@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../Estilos/Estilos.css">
+
+    <style>
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <header class="buscador">
+        <!-- <div>
+            <img src="./Assets/Icono.jpeg" alt="Logo" class="Logo">
+        </div> -->
+    <nav>
+        <ul>
+            <li class="head"><a href="../index.html">Inicio</a></li>
+            <li class="head"><a href="alojamiento.html">Alojamiento</a></li>
+            <li class="head"><a href="actividades.html">Actividades</a></li>
+            <li class="head"><a href="ubicacion.html">Ubicacion</a></li>
+            <li class="head"><a href="contacto.html">Contacto</a></li>
+        </ul>
+        
+    </nav>
+    </header>
+
+    <main>
+        <section>
+                <h1 class="contacto"> El mejor Refugio de montaña a tu alcance!</h1>
+        </section>
+    
+            <article class="informacion">
+                <form action="#">
+                    <label for="email">Nombre y Apellido:
+                    <input type="text" placeholder="Pepe Lopez"><br>
+                    <label for="email">Telefono:
+                        <input type="number" placeholder="12345678"><br>
+                    </label>
+                    <label for="email">Email:
+                        <input type="email" placeholder="1345@hotmail.com" name="email"><br>
+                    </label>
+                    <label for="Observaciones"> Detalle de viaje: <br>
+                        <textarea cols="50" rows="10" id="comentario" placeholder="Complete aquí" name="Comentario"></textarea> <br>
+                   
+                
+                    </div>
+                    <input type="submit" value="Enviar informacion">
+                    <input type="reset" value="Limpiar">
+                </form>
+            </article>
+    </main>
+
+
+    <footer>
+        <p>Todos los derechos son reservados por copyright</p>
+    </footer>
+</body>
+</html>
